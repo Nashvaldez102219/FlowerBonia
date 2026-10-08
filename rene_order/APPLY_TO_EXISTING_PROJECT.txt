@@ -1,0 +1,17 @@
+FLOWERBONIA UPDATE
+
+If you already opened/generated the previous project in VS Code:
+1. Back up your project first.
+2. Copy the `lib` folder from this package into your existing project and replace the old `lib` folder.
+3. Copy `pubspec.yaml` if needed (dependencies/assets are the same).
+4. Keep your existing `android` and `ios` folders.
+5. Run:
+   flutter clean
+   flutter pub get
+   flutter run
+
+For a new Android release APK:
+   flutter build apk --release
+
+The visible shop name inside the app is now FLOWERBONIA.
+The product cards are now compact and use 2 columns on normal phones, 3-5 columns on larger screens.

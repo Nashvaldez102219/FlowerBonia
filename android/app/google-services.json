@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939266013488",
+    "project_id": "flowerbonia-79b19",
+    "storage_bucket": "flowerbonia-79b19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939266013488:android:7aee6e9def5299fa9af0f5",
+        "android_client_info": {
+          "package_name": "com.example.rene_order"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyrSZ53TGhtJRAWszhFNbjscxsMDDZDCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+FLOWERBONIA PRODUCT LAYOUT UPDATE
+
+- Products are locked to a clean 2-column (2-by-2) shopping layout.
+- Product grid is capped at 520px wide so cards do not become oversized on tablets/desktop.
+- Product cards are shorter and more compact.
+- Product image area, text, price, rating, favorite button, and cart button were reduced.
+- Add to Cart and Favorites functionality are unchanged.
+
+To apply to an existing project, replace:
+lib/screens/products_page.dart
+lib/widgets/product_card.dart
+
+Then run:
+flutter clean
+flutter pub get
+flutter run
